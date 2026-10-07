@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
-public class UI : MonoBehaviour
+public class UIgame : MonoBehaviour
 {
     [SerializeField] private Text textUI;
-    public static int moedas;
-    
+    public static float moedas;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,6 +14,10 @@ public class UI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textUI.text =""+ moedas;
+        textUI.text = "" + moedas;
+    }
+    public void Coletado()
+    {
+        moedas ++;
     }
 }
