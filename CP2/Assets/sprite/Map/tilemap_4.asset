@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: tilemap_5
+  m_Name: tilemap_4
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -8420670720628680731, guid: e3370ac823c15894788b31131defaf19, type: 3}
+  m_Sprite: {fileID: -8717017754119436831, guid: e3370ac823c15894788b31131defaf19, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -31,6 +31,6 @@ MonoBehaviour:
     e31: 0
     e32: 0
     e33: 1
-  m_InstancedGameObject: {fileID: 0}
-  m_Flags: 1
+  m_InstancedGameObject: {fileID: 3386030707955752363, guid: 4eca86890411324448eb52343987a453, type: 3}
+  m_Flags: 0
   m_ColliderType: 1
